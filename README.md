@@ -1,7 +1,7 @@
 # IRAF → Notebook : Image-subtraction training
 
 **Short:** Work-in-progress repo documenting IRAF training steps and an image-subtraction demo to find transients.  
-**Author:** Mariia Efremova -- BSc Physics (3rd year) 
+**Author:** Mariia Efremova — BSc Physics (3rd year).
 **Status:** WIP — currently: star selection & IRAF terminal capture.
 
 ## What this repo contains
