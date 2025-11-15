@@ -10,14 +10,14 @@ unlearn imred
 unlearn ccdred
 
 # --- Setup ---
-set udata = "/path/to/data/"
-set uout = "/path/to/output/"
-set rawimg = "@raw_images.list"     # list of raw frames
+set udata = "/data/"
+set uout = "/output/"
+set rawimg = "GRB251018A-0001_R.fit"     # list of raw frames
 set refimg = "ref.fits"              # reference image
-set sciimg = "science.fits"          # science image
+set sciimg = "processed.fits"          # science image
 
 # --- 1. Basic CCD calibration (if needed) ---
-# ccdproc (rawimg, output="proc_", overscan-, trim-, zerocor+, darkcor-, flatcor-)
+# ccdproc (rawimg, output=sciimg, overscan-, trim-, zerocor+, darkcor+, flatcor+)
 
 # --- 2. Display image for star selection ---
 display (sciimg, 1)
